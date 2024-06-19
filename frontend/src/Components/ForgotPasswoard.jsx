@@ -16,9 +16,9 @@ function ForgotPasswoard() {
     try {
       setLoading(true);
       const response = await axios.post(
-        "https://costcocombackend-production.up.railway.app/user/register-email",
+        "https://costco-clone.onrender.com/user/register-email",
         {
-          email
+          email,
         },
         {
           withCredentials: true,

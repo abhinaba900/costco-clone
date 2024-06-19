@@ -107,7 +107,7 @@ function Header() {
       async function fetchData() {
         try {
           const response = await axios.get(
-            `https://costcocombackend-production.up.railway.app/products?search=${debouncedSearchTerm}`,
+            `https://costco-clone.onrender.com/products?search=${debouncedSearchTerm}`,
             { withCredentials: true }
           );
           console.log(response.data);

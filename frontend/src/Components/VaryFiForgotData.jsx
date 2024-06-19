@@ -15,7 +15,7 @@ function VaryFiForgotData() {
       setLoading(true);
       console.log(token, userId);
       const response = await axios.post(
-        "https://costcocombackend-production.up.railway.app/user/verify-email",
+        "https://costco-clone.onrender.com/user/verify-email",
         {
           token,
           userId,

@@ -11,7 +11,7 @@ function UserMenu() {
   const handaleLogout = async () => {
     try {
       const response = await axios.get(
-        "https://costcocombackend-production.up.railway.app/user/logout",
+        "https://costco-clone.onrender.com/user/logout",
         {
           withCredentials: true,
         }

@@ -41,7 +41,7 @@ function Login() {
     try {
       setLoading(true);
       const response = await axios.post(
-        "https://costcocombackend-production.up.railway.app/user/login",
+        "https://costco-clone.onrender.com/user/login",
         {
           email,
           password,

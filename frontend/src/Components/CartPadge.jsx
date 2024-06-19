@@ -20,7 +20,7 @@ function CartPage() {
     async function fetchCartItems() {
       try {
         const response = await axios.get(
-          "https://costcocombackend-production.up.railway.app/cart",
+          "https://costco-clone.onrender.com/cart",
           { withCredentials: true }
         );
         const data = response.data;

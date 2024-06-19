@@ -49,7 +49,7 @@ function Signup() {
         });
       } else {
         const response = await axios.post(
-          "https://costcocombackend-production.up.railway.app/user/register",
+          "https://costco-clone.onrender.com/user/register",
           {
             name,
             email,

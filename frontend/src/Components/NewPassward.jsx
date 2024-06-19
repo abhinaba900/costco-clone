@@ -23,7 +23,7 @@ function NewPassward() {
       }
 
       const response = await axios.patch(
-        "https://costcocombackend-production.up.railway.app/user/forgot/password",
+        "https://costco-clone.onrender.com/user/forgot/password",
         {
           email,
           password,

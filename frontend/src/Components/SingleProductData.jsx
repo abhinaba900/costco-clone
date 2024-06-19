@@ -30,7 +30,7 @@ function SingleProductData() {
     async function fetchData() {
       try {
         const response = await axios.get(
-          `https://costcocombackend-production.up.railway.app/products/${_id}`
+          `https://costco-clone.onrender.com/products/${_id}`
         );
         // Check if the response structure is as expected
         console.log("Response:", response);

@@ -15,12 +15,9 @@ function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get(
-          "https://costcocombackend-production.up.railway.app/",
-          {
-            withCredentials: true,
-          }
-        );
+        const response = await axios.get("https://costco-clone.onrender.com/", {
+          withCredentials: true,
+        });
 
         console.log(response);
       } catch (error) {

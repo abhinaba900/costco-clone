@@ -14,7 +14,7 @@ function AddToCartButton({ id }) {
     try {
       setLoading(true);
       const response = await axios.post(
-        `https://costcocombackend-production.up.railway.app/cart/${id}`,
+        `https://costco-clone.onrender.com/cart/${id}`,
         {},
         { withCredentials: true }
       );

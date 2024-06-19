@@ -25,7 +25,7 @@ function Products() {
     async function fetchData() {
       try {
         const response = await axios.get(
-          "https://costcocombackend-production.up.railway.app/products"
+          "https://costco-clone.onrender.com/products"
         );
         // Assuming the API returns an object with an allProducts key that is an array of products
         console.log(response?.data);
